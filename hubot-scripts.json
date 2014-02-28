@@ -12,6 +12,5 @@
     "github-issue-link.coffee",
     "hello.coffee",
     "newrelic.coffee",
-    "yell.coffee",
-    
+    "yell.coffee"
 ]
