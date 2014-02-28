@@ -1,1 +1,17 @@
-["redis-brain.coffee", "shipit.coffee", "karma.coffee"]
+[
+    "redis-brain.coffee",
+    "shipit.coffee",
+    "karma.coffee",
+    "advice.coffee",
+    "botsnack.coffee",
+    "brb.coffee",
+    "eardropping.coffee",
+    "factoid.coffee",
+    "gemwhois.coffee",
+    "github-commit-link.coffee",
+    "github-issue-link.coffee",
+    "hello.coffee",
+    "newrelic.coffee",
+    "yell.coffee",
+    
+]
