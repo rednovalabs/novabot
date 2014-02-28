@@ -606,7 +606,8 @@ Client.prototype.connect = function ( retryCount, callback ) { // {{{
                 (self.opt.selfSigned &&
                    (self.conn.authorizationError   === 'DEPTH_ZERO_SELF_SIGNED_CERT' ||
                       self.conn.authorizationError === 'UNABLE_TO_VERIFY_LEAF_SIGNATURE' ||
-                      self.conn.authorizationError === 'SELF_SIGNED_CERT_IN_CHAIN')) ||
+                      self.conn.authorizationError === 'SELF_SIGNED_CERT_IN_CHAIN',
+                      self.conn.authorizationError === 'Hostname/IP doesn\'t match certificate\'s altnames')) ||
                 (self.opt.certExpired &&
                    self.conn.authorizationError === 'CERT_HAS_EXPIRED')) {
               // authorization successful
