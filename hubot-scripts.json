@@ -1,7 +1,6 @@
 [
     "redis-brain.coffee",
     "shipit.coffee",
-    "karma.coffee",
     "advice.coffee",
     "botsnack.coffee",
     "brb.coffee",
@@ -15,5 +14,6 @@
     "yell.coffee",
     "ackbar.coffee",
     "adult.coffee",
-    "calm-down.coffee"
+    "calm-down.coffee",
+    "sensitive.coffee"
 ]
