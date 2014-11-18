@@ -15,5 +15,6 @@
     "ackbar.coffee",
     "adult.coffee",
     "calm-down.coffee",
-    "sensitive.coffee"
+    "sensitive.coffee",
+    "rubygems.coffee"
 ]
