@@ -1,1 +1,6 @@
-["hubot-markov", "hubot-plusplus", "hubot-jira-lookup"]
+[
+  "hubot-markov",
+  "hubot-plusplus",
+  "hubot-jira-lookup",
+  "hubot-google-images"
+]
