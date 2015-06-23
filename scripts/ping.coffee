@@ -14,6 +14,9 @@ module.exports = (robot) ->
   robot.respond /DING$/i, (msg) ->
     msg.send "DONG"
 
+  robot.respond /HELLO$/i, (msg) ->
+    msg.send "Is it me you're looking for?"
+
   robot.respond /ECHO (.*)$/i, (msg) ->
     msg.send msg.match[1]
 
