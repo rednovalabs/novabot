@@ -1,12 +1,6 @@
 [
+  "hubot-markov",
   "hubot-plusplus",
   "hubot-jira-lookup",
-  "hubot-google-images",
-  "hubot-business-cat",
-  "hubot-thank-you",
-  "hubot-victory",
-  "hubot-google-translate",
-  "hubot-reaction",
-  "hubot-bikeshed",
-  "hubot-outofcontext"
+  "hubot-google-images"
 ]
