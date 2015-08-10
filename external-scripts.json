@@ -8,5 +8,6 @@
   "hubot-google-translate",
   "hubot-reaction",
   "hubot-bikeshed",
-  "hubot-outofcontext"
+  "hubot-outofcontext",
+  "hubot-mute"
 ]
