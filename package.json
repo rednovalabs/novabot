@@ -23,7 +23,6 @@
     "githubot": "~0.5.0",
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-bikeshed": "^1.1.0",
-    "hubot-business-cat": "^1.2.3",
     "hubot-google-images": "^0.1.5",
     "hubot-google-translate": "^0.2.0",
     "hubot-jira-lookup": "git://github.com/jivesoftware/hubot-jira-lookup.git",
