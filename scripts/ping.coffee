@@ -9,7 +9,7 @@
 
 module.exports = (robot) ->
   robot.respond /PING$/i, (msg) ->
-    msg.send "PONG"
+    msg.send ":pong:"
 
   robot.respond /DING$/i, (msg) ->
     msg.send "DONG"
