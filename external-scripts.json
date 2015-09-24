@@ -8,6 +8,5 @@
   "hubot-reaction",
   "hubot-bikeshed",
   "hubot-outofcontext",
-  "hubot-mute",
-  "hubot-devops-reactions"
+  "hubot-mute"
 ]
