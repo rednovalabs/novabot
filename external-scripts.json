@@ -5,9 +5,11 @@
   "hubot-thank-you",
   "hubot-victory",
   "hubot-google-translate",
+  "hubot-ikr",
   "hubot-reaction",
   "hubot-bikeshed",
   "hubot-outofcontext",
   "hubot-mute",
-  "hubot-devops-reactions"
+  "hubot-devops-reactions",
+  "hubot-trello-organization"
 ]
