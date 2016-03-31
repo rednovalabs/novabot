@@ -24,3 +24,6 @@ module.exports = (robot) ->
     msg.send "Goodbye, cruel world."
     process.exit 0
 
+  robot.respond /drusepth/i, (msg) ->
+    msg.send ":rip: rip in pepperonis"
+    process.exit 0
