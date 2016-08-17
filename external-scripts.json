@@ -1,14 +1,15 @@
 [
-  "hubot-plusplus",
-  "hubot-jira-lookup",
-  "hubot-google-images",
-  "hubot-thank-you",
-  "hubot-victory",
-  "hubot-google-translate",
-  "hubot-reaction",
   "hubot-bikeshed",
-  "hubot-outofcontext",
-  "hubot-mute",
   "hubot-devops-reactions",
-  "hubot-trello-organization"
+  "hubot-google-images",
+  "hubot-google-translate",
+  "hubot-jira-lookup",
+  "hubot-mute",
+  "hubot-outofcontext",
+  "hubot-plusplus",
+  "hubot-reaction",
+  "hubot-redis-brain",
+  "hubot-shipit",
+  "hubot-thank-you",
+  "hubot-victory"
 ]

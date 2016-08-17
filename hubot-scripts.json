@@ -1,20 +1,11 @@
 [
-    "redis-brain.coffee",
-    "shipit.coffee",
     "advice.coffee",
-    "botsnack.coffee",
     "brb.coffee",
     "eardropping.coffee",
     "factoid.coffee",
-    "gemwhois.coffee",
-    "github-commit-link.coffee",
-    "github-issue-link.coffee",
     "hello.coffee",
-    "newrelic.coffee",
     "yell.coffee",
     "ackbar.coffee",
-    "adult.coffee",
     "calm-down.coffee",
-    "sensitive.coffee",
-    "rubygems.coffee"
+    "sensitive.coffee"
 ]
