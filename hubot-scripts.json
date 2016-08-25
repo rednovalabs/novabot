@@ -1,9 +1,9 @@
 [
     "advice.coffee",
     "brb.coffee",
+    "do-it-live.coffee",
     "eardropping.coffee",
     "factoid.coffee",
-    "hello.coffee",
     "yell.coffee",
     "ackbar.coffee",
     "calm-down.coffee",
