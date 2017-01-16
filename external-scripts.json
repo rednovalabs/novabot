@@ -10,6 +10,5 @@
   "hubot-reaction",
   "hubot-redis-brain",
   "hubot-shipit",
-  "hubot-thank-you",
-  "hubot-victory"
+  "hubot-thank-you"
 ]
