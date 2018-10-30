@@ -18,8 +18,6 @@
 #   Smalls
 
 ROOT = "http://placerabbit.com"
-BASE_HEIGHT = Math.floor(Math.random()*250) + 250
-BASE_WIDTH = Math.floor(Math.random()*250) + 250
 
 module.exports = (robot) ->
   robot.respond /bunny?(?: me)?$/i, (msg) ->
@@ -39,9 +37,11 @@ module.exports = (robot) ->
     msg.send colorBunnyMe("g")
 
 bunnyMe = (height, width)->
-  h = height || BASE_HEIGHT
-  w = width || BASE_WIDTH
+  h = height || Math.floor(Math.random()*250) + 250
+  w = width || Math.floor(Math.random()*250) + 250
   return "#{ROOT}/#{h}/#{w}#.png"
 
 colorBunnyMe = (color)->
-  return "#{ROOT}/#{color}/#{BASE_HEIGHT}/#{BASE_WIDTH}#.png"
+  h = Math.floor(Math.random()*250) + 250
+  w = Math.floor(Math.random()*250) + 250
+  return "#{ROOT}/#{color}/#{h}/#{w}#.png"
