@@ -20,20 +20,20 @@
 ROOT = "http://placerabbit.com"
 
 module.exports = (robot) ->
-  robot.respond /bunny?(?: me)?$/i, (msg) ->
+  robot.respond /(bunny|rabbit)?(?: me)?$/i, (msg) ->
     msg.send bunnyMe()
 
-  robot.respond /bunny?(?: me)? (\d+)(?:[x ](\d+))?$/i, (msg) ->
-    msg.send bunnyMe msg.match[1], (msg.match[2] || msg.match[1])
+  robot.respond /(bunny|rabbit)?(?: me)? (\d+)(?:[x ](\d+))?$/i, (msg) ->
+    msg.send bunnyMe msg.match[2], (msg.match[3] || msg.match[2])
 
-  robot.respond /bunny bomb(?: me)?( \d+)?$/i, (msg) ->
-    bunnies = msg.match[1] || 5
+  robot.respond /(bunny|rabbit)? bomb(?: me)?( \d+)?$/i, (msg) ->
+    bunnies = msg.match[2] || 5
     msg.send(bunnyMe()) for i in [1..bunnies]
 
-  robot.respond /bunny demon(?: me)?$/i, (msg) ->
+  robot.respond /(bunny|rabbit)? demon(?: me)?$/i, (msg) ->
     msg.send colorBunnyMe("i")
 
-  robot.respond /bunny somber(?: me)?$/i, (msg) ->
+  robot.respond /(bunny|rabbit)? somber(?: me)?$/i, (msg) ->
     msg.send colorBunnyMe("g")
 
 bunnyMe = (height, width)->
